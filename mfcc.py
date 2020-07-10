@@ -6,7 +6,7 @@ import scipy.io.wavfile
 from scipy.fftpack import dct
 
 
-fs,a=scipy.io.wavfile.read('C:/Users/Mohit K/Desktop/datasets/OSR_us_000_0010_8k.wav')
+fs,a=scipy.io.wavfile.read('.../OSR_us_000_0010_8k.wav')
 a = a[0:int(3.5 * fs)]
 
 #pre-emphasis
