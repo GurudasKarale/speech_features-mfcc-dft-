@@ -11,7 +11,8 @@
 5)Take the logarithm of all energies.
 
 6)Pass it through the mel filter bank. Transfer function of filter bank is giver by:
-https://github.com/GurudasKarale/speech_features-mfcc-dft-/blob/master/img/tra.PNG
+
+![Image of transfer](https://github.com/GurudasKarale/speech_features-mfcc-dft-/blob/master/img/tra.PNG)
 
 7)Take the DCT of the log filterbank energies and keep 2-13 coefficients.
 
