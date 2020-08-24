@@ -6,6 +6,8 @@
 
 3)Take DFT  framewise. Equation for calculating discrete fourier transform is given by:
 
+![Image of dft](https://github.com/GurudasKarale/speech_features-mfcc-dft-/blob/master/img/dft.PNG)
+
 4)Sum up the energy of each frame
 
 5)Take the logarithm of all energies.
