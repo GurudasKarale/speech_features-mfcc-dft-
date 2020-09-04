@@ -20,7 +20,7 @@ x=[]
 for i in range(0,len(a)-100,100):
 
     #for j in range(6):
-        x.append(a[i:i+200])
+        x.append(y[i:i+200])
 
 
 z=np.array(x)
